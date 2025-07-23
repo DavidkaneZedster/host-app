@@ -10,17 +10,8 @@
     "moduleResolution": "node",
     "skipLibCheck": true,
     "jsx": "react-jsx",
-	 "resolveJsonModule": true,
+	  "resolveJsonModule": true,
     "strict": true
-    //  "baseUrl": "./src"
   },
-  "ts-node": {
-    "transpileOnly": true,
-    "files": true,
-    "compilerOptions": {
-      "module": "esnext",
-      "target": "es2020"
-    }
-  },
-  "include": ["**/*.ts", "**/*.tsx", "webpack.config.js", "webpack.common.config.js", "webpack.lib.config.js"]
+  "include": ["**/*.ts", "**/*.tsx"]
 }
