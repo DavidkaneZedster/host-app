@@ -1,7 +1,7 @@
 {
   "name": "bundle",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack serve",
+    "dev": "cross-env NODE_ENV=development webpack serve --config webpack.config.js",
     "dev:ift": "cross-env NODE_ENV=development MODE=ift webpack serve",
     "dev:stub": "cross-env NODE_ENV=development MODE=stub webpack serve",
     "build": "npm run build:app && npm run build:lib",

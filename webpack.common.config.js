@@ -1,7 +1,7 @@
-// import path from 'node:path';
-import { Configuration, ProgressPlugin } from 'webpack';
+const webpack = require('webpack');
+const { ProgressPlugin } = webpack;
 
-const config: Configuration = {
+module.exports = {
   module: {
     rules: [
       {
@@ -31,5 +31,3 @@ const config: Configuration = {
   },
   plugins: [new ProgressPlugin()],
 };
-
-export default config;

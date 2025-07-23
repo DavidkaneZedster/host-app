@@ -6,9 +6,7 @@ export default function App() {
 
   const loadAndRenderMicroFrontend = async () => {
     //@ts-ignore
-    const { mount } = await import(/*webpackIgnore: true*/ 'http://localhost:8080/lib.js').then(
-      (module) => module,
-    );
+    const { mount } = await import('my-lib');
 
     // Получаем контейнер
     const container = document.getElementById(elementId.current);

@@ -12,7 +12,6 @@ root.render(
     <BrowserRouter>
       <>
         <App />
-        <App />
       </>
     </BrowserRouter>
   </StrictMode>,
